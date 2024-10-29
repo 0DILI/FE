@@ -1,0 +1,206 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=New+Rocker&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  overflow-x: hidden !important;
+}
+
+.rocker {
+  font-family: "New Rocker", system-ui;
+}
+
+nav {
+  background: linear-gradient(
+    270deg,
+    #f7eea6 0%,
+    #fcb236 31.01%,
+    #f3808e 64.1%,
+    #78aac5 100%
+  );
+}
+
+/* SECTION */
+.sec_1 {
+  background: url("./assets/fe-sec-1bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.sec_3 {
+  background: url("./assets/fe-sec-3bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.sec_4 {
+  background: url("./assets/fe-sec-4bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.sec_6 {
+  background: url("./assets/fe-sec-6bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.sec_8 {
+  background: url("./assets/fe-sec-8bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.sec_10 {
+  background: url("./assets/fe-sec-10bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.sec_11 {
+  background: url("./assets/fe-sec-11bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+/* GRADIENTS */
+.txt_grad1 {
+  background: linear-gradient(
+    129deg,
+    #78aac5 21.83%,
+    #f3808e 47.14%,
+    #fcb236 70.48%,
+    #f7eea6 91.23%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text_grad2 {
+  background: linear-gradient(
+    270deg,
+    #f7eea6 21.85%,
+    #fcb236 46.08%,
+    #f3808e 71.94%,
+    #78aac5 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.bord_grad1 {
+  border-radius: 11.627px;
+  border: 0.775px solid var(--Linear, #f7eea6);
+  background: rgba(255, 253, 254, 0.18);
+  box-shadow: 41px 43.771px 80px 0px rgba(71, 111, 135, 0.15);
+  backdrop-filter: blur(8.932916641235352px);
+}
+
+.source {
+  border-radius: 11.108px;
+  border: 0.741px solid #f7eea6;
+  background: #fffdfe;
+  box-shadow: 0px 5.184px 44.434px 0px rgba(0, 0, 0, 0.1);
+}
+
+.buzz {
+  border-radius: 44.942px;
+  border: 1.498px solid #78aac5;
+  background: #fffdfe;
+  box-shadow: 0px 9.728px 83.381px 0px rgba(0, 0, 0, 0.1);
+}
+
+.vid-test {
+  background: url("./assets/vid.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.vid-test iframe {
+  width: 100%;
+  height: 450px;
+}
+
+.rotate {
+  transform: rotate(-3deg);
+}
+
+@keyframes bounce-smooth {
+  0%,
+  100% {
+    transform: translateX(-50%) translateY(0); /* Center the element */
+    left: 50%; /* Ensure it is centered horizontally */
+  }
+  50% {
+    transform: translateX(-50%) translateY(-10px); /* Bounce effect */
+    left: 50%;
+  }
+}
+
+.animate-bounce-smooth {
+  animation: bounce-smooth 1.5s ease-in-out infinite;
+  position: absolute; /* Ensure the element is positioned relative to the container */
+  left: 50%; /* Ensure it stays centered */
+  transform: translateX(-50%); /* Initial centering */
+}
+
+@media (max-width: 421px) {
+  .vid-test iframe {
+    height: 250px;
+  }
+}
+
+@media (max-width: 640px) {
+  .rotate {
+    transform: rotate(0deg);
+  }
+}
+
+.lead {
+  border-radius: 13.016px;
+  border: 0.868px solid #f7eea6;
+  background: #fffdfe;
+  box-shadow: 0px 6.074px 52.063px 0px rgba(0, 0, 0, 0.1);
+}
+
+.lead2 {
+  background: linear-gradient(
+    180deg,
+    rgba(245, 234, 234, 0.1) 0%,
+    rgba(255, 227, 208, 0.1) 100%
+  );
+  backdrop-filter: blur(20px);
+  border-radius: 13.016px;
+}
+.lead {
+  border-radius: 13.016px;
+  border: 0.868px solid #f7eea6;
+  background: #fffdfe;
+  box-shadow: 0px 6.074px 52.063px 0px rgba(0, 0, 0, 0.1);
+}
+
+.ac-btn {
+  border-radius: 13.737px;
+  border: 1.618px solid #fff;
+  background: linear-gradient(
+    154deg,
+    #78aac5 12.18%,
+    #f3808e 34.87%,
+    #fcb236 63.61%,
+    #f7eea6 87.03%
+  );
+  box-shadow: 0px 24.275px 48.55px 0px rgba(252, 178, 54, 0.4);
+}
