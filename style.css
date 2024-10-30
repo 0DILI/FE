@@ -71,6 +71,45 @@ nav {
   background-size: cover;
 }
 
+.sec_13 {
+  background: url("./assets/fe-sec-13bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.sec_15 {
+  background: url("./assets/fe-sec-15bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.sec_16 {
+  background: url("./assets/fe-sec-16bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.sec_15-minibg {
+  background: rgba(247, 238, 166, 0.1);
+  backdrop-filter: blur(20.74821662902832px);
+}
+
+.vid-bg {
+  background: url("./assets/vid-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.upgrade {
+  border-radius: 10.768px;
+  background: rgba(247, 238, 166, 0.3);
+  backdrop-filter: blur(20.119680404663086px);
+}
+
 /* GRADIENTS */
 .txt_grad1 {
   background: linear-gradient(
