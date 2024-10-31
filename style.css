@@ -113,6 +113,13 @@ nav {
   background-size: cover;
 }
 
+footer {
+  background: url("./assets/footer.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
 .sec_15-minibg {
   background: rgba(247, 238, 166, 0.1);
   backdrop-filter: blur(20.74821662902832px);
